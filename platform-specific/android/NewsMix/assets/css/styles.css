@@ -1,0 +1,161 @@
+/* 
+    Document   : styles
+    Created on : Feb 19, 2013, 7:12:26 PM
+    Author     : Femi TAIWO <dftaiwo@gmail.com>
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+        display: block;
+}
+
+body{
+        background:#47525c;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-weight:200;
+        font-size:13px;
+        height:100%;
+        color:#444;
+        line-height: 1.3em;
+        color:white;
+
+}
+a,a:visited{
+        color:#6DDFFF;
+        text-decoration: none;
+}
+
+p{
+        color:#fff;
+        font-size:13px;
+}
+
+.line{
+        height:1px;
+        overflow:hidden;
+        background-color:#2b353d;
+        border-bottom:1px solid #687581;
+        margin:10px 0;
+}
+
+
+#feedHeader{
+        margin-bottom:13px;
+        color:#4EBAFF;
+        position:fixed;
+        background:#47525c;
+        width:100%;
+        top:0px;
+        border-bottom:1px solid #ccc;
+}
+
+h1{
+        color:#fff;
+        text-shadow:1px 1px 2px #222;
+        margin-bottom:4px;
+        font-size:1.5em;
+}
+
+#newsList{  
+        margin-top:30px;
+        padding: 0px 3px 3px 5px; 
+        margin-top:3px; 
+}
+
+.marginedTop{
+        margin-top:55px;
+}
+#newsList li{ 
+        margin:0 5px 10px 0;
+        padding:5px;
+        list-style: none;
+        clear:both;
+        border:1px solid #38434d;
+        /* CSS3 round corners: */
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        border-radius:5px;
+}
+
+#newsList .title{ 
+        font-weight:500; 
+        margin:5px 0px 4px 0px; 
+        padding-top:3px;
+        color:#4EBAFF; 
+        text-decoration:none ;
+        display:block;
+        font-size:1.3em;
+        text-shadow: 0 1px 1px #000;
+}
+
+#newsList .content{ 
+        padding:1px 3px 8px 3px; 
+        border-bottom:1px inset #666; 
+        margin-bottom:8px;
+}
+
+#newsList .content img{ 
+        max-width:250px;
+        align:left;
+        box-shadow: 1px 1px 2px #aaa;
+        margin:8px;
+}
+
+#newsList .date{ 
+        font-size:11px; 
+        color:#AAA; 
+}
+
+
+#homeBtn {
+        float:right;
+        margin-right:5px;
+        display:block;
+        padding:5px 20px 5px 5px;
+}
+.footerLinks{
+        bottom:0;
+        text-align:center;
+        padding-top:6px;
+        background:#47525c;
+        border:1px solid #ccc;
+        border-bottom:0;
+}
+.footerLinks a{
+        padding:8px 8px;
+        margin:0px;
+        margin-bottom:6px;
+}
+a.btn:link,a.btn:visited{
+        border:2px outset #ccc;
+        background:#ccc;
+        padding:4px 8px;
+        color:#000;
+        border-radius: 4px;
+}
+a.btn:hover{
+
+        border:2px outset #000;
+}
+
+.feeds {
+        padding:0;
+        margin:10px 0px;
+}
+.feeds li{
+
+        list-style:none;
+        background:#36414b;
+}
+.feeds li a,.feeds li a:visited{
+        display:block;
+        padding:8px 8px;
+        margin:0px;
+        margin-bottom:6px;
+        font-size:1.2em;
+
+}
+.feeds li a:hover{
+        color:#fff;                
+}

@@ -1,0 +1,10 @@
+CACHE MANIFEST
+      
+# This is a comment in this file
+
+
+CACHE:
+https://www.google.com/jsapi
+
+NETWORK:
+*

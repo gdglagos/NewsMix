@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.gdg.newsmix"
+        versionCode="10" 
+        version   = "2.2.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>NewsMix</name>
+
+    <description>
+        HTML5 Based RSS Reader
+    </description>
+
+    <author href="https://gdglagos.com" email="femi@gdglagos.com">
+        Femi TAIWO 
+    </author>
+
+    <preference name="fullscreen" value="true" />
+    <preference name="permissions" value="none"/>
+    
+
+</widget>
